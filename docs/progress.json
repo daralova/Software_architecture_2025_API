@@ -3,8 +3,8 @@
   "repo": "godor1333/Software_architecture_2025_API",
   "repo_url": "https://github.com/godor1333/Software_architecture_2025_API",
   "site_url": "https://godor1333.github.io/Software_architecture_2025_API/",
-  "updated_at": "2026-10-27T01:26:22+03:00",
-  "done": 7,
+  "updated_at": "2026-11-02T16:51:28+03:00",
+  "done": 8,
   "total": 40,
   "report_checklist": [
     "Цель и проблема проекта",
@@ -794,7 +794,7 @@
       "name": "Даша Фролова",
       "slug": "Frolova_Dasha",
       "path": "projects/Frolova_Dasha",
-      "done": 1,
+      "done": 2,
       "total": 5,
       "projects": [
         {
@@ -855,13 +855,13 @@
           ],
           "path": "projects/Frolova_Dasha/2_segmentatsiya-dorozhnoy-stseny-dlya",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Frolova_Dasha/2_segmentatsiya-dorozhnoy-stseny-dlya",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 93,
+          "submitted_at": "2026-11-02T13:51:14Z",
+          "pr": 11,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/11",
+          "by": "daralova",
+          "by_login": true
         },
         {
           "n": 3,
