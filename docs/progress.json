@@ -3,8 +3,8 @@
   "repo": "godor1333/Software_architecture_2025_API",
   "repo_url": "https://github.com/godor1333/Software_architecture_2025_API",
   "site_url": "https://godor1333.github.io/Software_architecture_2025_API/",
-  "updated_at": "2026-11-02T20:02:30+03:00",
-  "done": 9,
+  "updated_at": "2026-11-02T20:04:46+03:00",
+  "done": 10,
   "total": 40,
   "report_checklist": [
     "Цель и проблема проекта",
@@ -794,7 +794,7 @@
       "name": "Даша Фролова",
       "slug": "Frolova_Dasha",
       "path": "projects/Frolova_Dasha",
-      "done": 2,
+      "done": 3,
       "total": 5,
       "projects": [
         {
@@ -887,13 +887,13 @@
           ],
           "path": "projects/Frolova_Dasha/3_analiz-otzyvov-patsientov-o-klinikakh",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Frolova_Dasha/3_analiz-otzyvov-patsientov-o-klinikakh",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 51,
+          "submitted_at": "2026-11-02T17:04:28Z",
+          "pr": 13,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/13",
+          "by": "daralova",
+          "by_login": true
         },
         {
           "n": 4,
