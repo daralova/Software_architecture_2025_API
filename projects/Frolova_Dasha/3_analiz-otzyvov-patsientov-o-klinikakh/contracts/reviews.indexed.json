@@ -1,0 +1,1 @@
+{"topic":"reviews.indexed","encoding":"UTF-8 JSON","key":"review_id","example":{"review_id":"demo-001","index":"clinic-reviews"},"required":["review_id","index"]}

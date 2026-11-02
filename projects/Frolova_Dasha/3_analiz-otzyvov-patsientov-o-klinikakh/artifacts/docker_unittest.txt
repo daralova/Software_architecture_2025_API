@@ -1,0 +1,14 @@
+exit_code=0
+test_aspect_and_sentiment (test_app.ReviewTest.test_aspect_and_sentiment) ... ok
+test_corpus_mode_classifies_mixed_review (test_app.ReviewTest.test_corpus_mode_classifies_mixed_review) ... ok
+test_dashboard_and_pipeline_show_aggregates (test_app.ReviewTest.test_dashboard_and_pipeline_show_aggregates) ... ok
+test_empty_review_rejected (test_app.ReviewTest.test_empty_review_rejected) ... ok
+test_invalid_rating_and_missing_id (test_app.ReviewTest.test_invalid_rating_and_missing_id) ... ok
+test_preprocessing_and_unicode (test_app.ReviewTest.test_preprocessing_and_unicode) ... ok
+test_unknown_strategy_rejected (test_app.ReviewTest.test_unknown_strategy_rejected) ... ok
+test_update_does_not_duplicate_aggregation (test_app.ReviewTest.test_update_does_not_duplicate_aggregation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.062s
+
+OK

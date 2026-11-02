@@ -1,0 +1,19 @@
+{
+  "review_id": "r1",
+  "clinic_id": "c1",
+  "rating": 2,
+  "text": "Врач внимательный, но ожидание было ужасным и долгим",
+  "labels": [
+    {
+      "aspect": "врач",
+      "sentiment": "positive",
+      "score": 0.9792
+    },
+    {
+      "aspect": "ожидание",
+      "sentiment": "neutral",
+      "score": 0.5544
+    }
+  ],
+  "created_at": "2026-10-28T15:59:50.899263+00:00"
+}

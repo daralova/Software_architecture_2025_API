@@ -1,0 +1,116 @@
+{
+  "dataset": "helling100/sentiment-pragmatic-med-ru",
+  "revision": "4e0223b289a187e9538c7056609f1cb5061119bb",
+  "license": "CC-BY-SA-4.0",
+  "config": "sa_original",
+  "source_sha256": {
+    "train": "abe1f5cffa58ada226da94dd688077711f4da0dafb3d242488a6923ab36a332c",
+    "val": "c33cc4d4dbf07af927550c998fccc0f87ca01a1206b9502af58ac4a6168b5717",
+    "test": "4a45803b2d5798b5c52cecde96c77fbfb6289f4a643955822240f7a62f4566c4"
+  },
+  "split_sizes_after_dedup": {
+    "train": 14151,
+    "val": 3058,
+    "test": 3159
+  },
+  "removed_cross_split_train": 589,
+  "removed_cross_split_validation": 101,
+  "aspect_mapping": {
+    "врач": [
+      "CH",
+      "DR"
+    ],
+    "ожидание": [
+      "W"
+    ],
+    "сервис": [
+      "COM",
+      "S",
+      "SER",
+      "TR"
+    ],
+    "стоимость": [
+      "M"
+    ],
+    "результат лечения": [
+      "CUR",
+      "Q"
+    ]
+  },
+  "aspect": {
+    "macro_f1": 0.535,
+    "micro_f1": 0.5538,
+    "per_class": {
+      "врач": {
+        "precision": 0.5413,
+        "recall": 0.7137,
+        "f1": 0.6157,
+        "support": 716,
+        "threshold": 0.45
+      },
+      "ожидание": {
+        "precision": 0.4417,
+        "recall": 0.5896,
+        "f1": 0.5051,
+        "support": 212,
+        "threshold": 0.55
+      },
+      "сервис": {
+        "precision": 0.4874,
+        "recall": 0.6993,
+        "f1": 0.5744,
+        "support": 858,
+        "threshold": 0.45
+      },
+      "стоимость": {
+        "precision": 0.5536,
+        "recall": 0.4794,
+        "f1": 0.5138,
+        "support": 194,
+        "threshold": 0.6
+      },
+      "результат лечения": {
+        "precision": 0.3972,
+        "recall": 0.5635,
+        "f1": 0.466,
+        "support": 504,
+        "threshold": 0.5
+      }
+    }
+  },
+  "sentiment": {
+    "test_samples": 3159,
+    "accuracy": 0.768,
+    "macro_f1": 0.7333,
+    "per_class": {
+      "negative": {
+        "precision": 0.7561837455830389,
+        "recall": 0.7663384064458371,
+        "f1-score": 0.7612272120942641,
+        "support": 1117.0
+      },
+      "neutral": {
+        "precision": 0.538235294117647,
+        "recall": 0.634315424610052,
+        "f1-score": 0.5823389021479713,
+        "support": 577.0
+      },
+      "positive": {
+        "precision": 0.8938381588715665,
+        "recall": 0.8218430034129692,
+        "f1-score": 0.8563300142247511,
+        "support": 1465.0
+      }
+    }
+  },
+  "sklearn_version": "1.9.1",
+  "limitations": "Sentence-level labels; mapped categories combine related aspects; no independent per-aspect sentiment labels.",
+  "baseline": {
+    "method": "local lexicon; single sentence polarity",
+    "aspect_macro_f1": 0.3397,
+    "aspect_micro_f1": 0.3523,
+    "sentiment_macro_f1": 0.3325,
+    "sentiment_accuracy": 0.3425,
+    "samples": 3159
+  }
+}

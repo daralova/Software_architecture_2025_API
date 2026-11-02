@@ -1,0 +1,30 @@
+{
+  "clinic_id": "clinic-demo",
+  "aggregation": [
+    {
+      "aspect": "врач",
+      "sentiment": "positive",
+      "count": 2
+    },
+    {
+      "aspect": "ожидание",
+      "sentiment": "positive",
+      "count": 1
+    },
+    {
+      "aspect": "результат лечения",
+      "sentiment": "positive",
+      "count": 1
+    },
+    {
+      "aspect": "сервис",
+      "sentiment": "neutral",
+      "count": 1
+    },
+    {
+      "aspect": "сервис",
+      "sentiment": "positive",
+      "count": 1
+    }
+  ]
+}

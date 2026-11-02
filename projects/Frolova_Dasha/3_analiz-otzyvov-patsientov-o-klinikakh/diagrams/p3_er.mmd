@@ -1,0 +1,23 @@
+erDiagram
+ REVIEWS ||--o{ LABELS : "review_id"
+ REVIEWS {
+  text review_id PK
+  text clinic_id
+  int rating
+  text text
+  datetime created_at
+ }
+ LABELS {
+  text review_id PK
+  text aspect PK
+  text sentiment
+  real score
+ }
+ CLINIC_REVIEWS {
+  text review_id PK
+  text clinic_id
+  int rating
+  text text
+  json labels
+  datetime created_at
+ }
