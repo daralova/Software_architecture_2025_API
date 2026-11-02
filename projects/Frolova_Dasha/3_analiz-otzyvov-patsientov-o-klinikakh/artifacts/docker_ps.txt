@@ -1,0 +1,7 @@
+exit_code=0
+NAME                                IMAGE                                                  COMMAND                  SERVICE         CREATED              STATUS                        PORTS
+clinicreviews-lab-api-1             clinicreviews-lab-api                                  "uvicorn api:api --h…"   api             About a minute ago   Up 59 seconds                 0.0.0.0:18013->8013/tcp, [::]:18013->8013/tcp
+clinicreviews-lab-elasticsearch-1   docker.elastic.co/elasticsearch/elasticsearch:8.15.2   "/bin/tini -- /usr/l…"   elasticsearch   About a minute ago   Up About a minute (healthy)   9200/tcp, 9300/tcp
+clinicreviews-lab-kafka-1           confluentinc/cp-kafka:7.7.1                            "/etc/confluent/dock…"   kafka           About a minute ago   Up About a minute (healthy)   9092/tcp
+clinicreviews-lab-postgres-1        postgres:16-alpine                                     "docker-entrypoint.s…"   postgres        About a minute ago   Up About a minute (healthy)   5432/tcp
+clinicreviews-lab-worker-1          clinicreviews-lab-worker                               "python worker.py"       worker          About a minute ago   Up 59 seconds                 8013/tcp

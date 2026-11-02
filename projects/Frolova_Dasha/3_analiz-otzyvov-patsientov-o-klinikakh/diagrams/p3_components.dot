@@ -1,0 +1,9 @@
+digraph G {rankdir=TB; graph [bgcolor="white",pad="0.3"]; node [shape=box,style="rounded,filled",fillcolor="#e5effa",fontname="Arial",fontsize=14]; stream[label="Text stream
+JSONL / HTTP"]; pre[label="ReviewPreprocessor
+NFC, пробелы"]; pipe[label="ReviewPipeline",fillcolor="#cce1f9"]; strat[label="Strategy
+baseline / corpus / transformer"]; obs[label="Observer
+локальная запись"]; pg[label="PostgreSQL
+Repository"]; kafka[label="Kafka
+reviews.created"]; worker[label="Worker
+review-analytics"]; es[label="Elasticsearch
+clinic-reviews"]; ui[label="Dashboard / API"]; stream -> pre -> pipe -> strat; strat -> obs; strat -> pg; strat -> kafka -> worker -> es; pg -> ui; }

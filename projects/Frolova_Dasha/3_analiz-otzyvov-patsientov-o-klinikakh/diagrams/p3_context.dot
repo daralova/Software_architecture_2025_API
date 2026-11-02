@@ -1,0 +1,4 @@
+digraph G {rankdir=LR; graph [bgcolor="white",pad="0.2"]; node [shape=box,style="rounded,filled",fillcolor="#e5effa",fontname="Arial",fontsize=16]; operator [label="Аналитик клиники"]; sender [label="Источник
+обезличенных отзывов"]; sys [label="Система анализа
+отзывов",fillcolor="#cce1f9"]; dashboard [label="Dashboard
+и API"]; operator -> dashboard; sender -> sys; sys -> dashboard; }

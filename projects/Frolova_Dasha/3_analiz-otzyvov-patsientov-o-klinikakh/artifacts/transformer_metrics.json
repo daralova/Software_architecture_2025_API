@@ -1,0 +1,84 @@
+{
+  "model": "blanchefort/rubert-base-cased-sentiment",
+  "samples": 15,
+  "dataset": "manually authored control phrases",
+  "accuracy": 0.6667,
+  "macro_f1": 0.6667,
+  "items": [
+    {
+      "text": "Врач внимательный",
+      "expected": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Доктор замечательный и очень помог",
+      "expected": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Отличный сервис и вежливые сотрудники",
+      "expected": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Лечение прошло успешно",
+      "expected": "positive",
+      "predicted": "negative"
+    },
+    {
+      "text": "Клиника очень понравилась",
+      "expected": "positive",
+      "predicted": "positive"
+    },
+    {
+      "text": "Врач грубый и невнимательный",
+      "expected": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Ужасное обслуживание, никому не советую",
+      "expected": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Очень дорого и плохо",
+      "expected": "negative",
+      "predicted": "negative"
+    },
+    {
+      "text": "Долгая очередь испортила впечатление",
+      "expected": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Мне не помогло лечение",
+      "expected": "negative",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Приём состоялся в понедельник",
+      "expected": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Клиника работает каждый день",
+      "expected": "neutral",
+      "predicted": "negative"
+    },
+    {
+      "text": "Стоимость приёма указана на сайте",
+      "expected": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Записался на вторник",
+      "expected": "neutral",
+      "predicted": "neutral"
+    },
+    {
+      "text": "Доктор назначил обследование",
+      "expected": "neutral",
+      "predicted": "positive"
+    }
+  ]
+}

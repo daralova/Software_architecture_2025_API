@@ -1,0 +1,69 @@
+{
+  "train_samples": 40,
+  "test_samples": 10,
+  "dataset": "manually authored phrases",
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "items": [
+    {
+      "text": "Хороший лечащий врач",
+      "aspect": "врач",
+      "split": "test",
+      "predicted": "врач"
+    },
+    {
+      "text": "Доктор внимательно выслушал",
+      "aspect": "врач",
+      "split": "test",
+      "predicted": "врач"
+    },
+    {
+      "text": "Долго сидел в очереди",
+      "aspect": "ожидание",
+      "split": "test",
+      "predicted": "ожидание"
+    },
+    {
+      "text": "Не пришлось долго ждать",
+      "aspect": "ожидание",
+      "split": "test",
+      "predicted": "ожидание"
+    },
+    {
+      "text": "Сервис и персонал замечательные",
+      "aspect": "сервис",
+      "split": "test",
+      "predicted": "сервис"
+    },
+    {
+      "text": "Грубый администратор на ресепшене",
+      "aspect": "сервис",
+      "split": "test",
+      "predicted": "сервис"
+    },
+    {
+      "text": "Цена оказалась очень высокой",
+      "aspect": "стоимость",
+      "split": "test",
+      "predicted": "стоимость"
+    },
+    {
+      "text": "Стоимость диагностики низкая",
+      "aspect": "стоимость",
+      "split": "test",
+      "predicted": "стоимость"
+    },
+    {
+      "text": "Терапия помогла и боль прошла",
+      "aspect": "результат лечения",
+      "split": "test",
+      "predicted": "результат лечения"
+    },
+    {
+      "text": "Результат лечения плохой",
+      "aspect": "результат лечения",
+      "split": "test",
+      "predicted": "результат лечения"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+exit_code=0
+{"review_id": "demo-001", "clinic_id": "clinic-demo", "rating": 3, "text": "Врач внимательный, но ожидание было долгим.", "labels": [{"aspect": "врач", "sentiment": "positive", "score": 0.6765}, {"aspect": "ожидание", "sentiment": "negative", "score": 0.4195}, {"aspect": "сервис", "sentiment": "negative", "score": 0.4195}], "created_at": "2026-10-29T19:01:41.454256+00:00"}

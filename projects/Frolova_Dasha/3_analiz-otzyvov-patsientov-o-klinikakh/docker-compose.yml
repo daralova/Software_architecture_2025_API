@@ -1,0 +1,5 @@
+services:
+  clinic-reviews:
+    build: .
+    ports:
+      - "8013:8013"

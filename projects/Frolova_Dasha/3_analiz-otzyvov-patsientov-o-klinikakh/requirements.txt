@@ -1,0 +1,8 @@
+transformers>=4.45
+aiokafka>=0.10
+asyncpg>=0.29
+elasticsearch>=8.15,<9
+scikit-learn==1.9.1
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pandas>=2.2

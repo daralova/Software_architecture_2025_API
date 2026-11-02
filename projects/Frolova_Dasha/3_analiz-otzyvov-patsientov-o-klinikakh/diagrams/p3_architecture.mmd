@@ -1,0 +1,8 @@
+flowchart TB
+ client["Клиент клиники"] -->|"POST /api/v1/reviews"| api["Review API<br/>FastAPI"]
+ api --> model["Классификатор аспектов<br/>и тональности"]
+ api --> pg[("PostgreSQL<br/>clinic_reviews")]
+ api --> es[("Elasticsearch<br/>clinic-reviews")]
+ api --> incoming["Kafka<br/>reviews.created"] --> worker["review-analytics<br/>индексация"]
+ worker --> es
+ worker --> done["Kafka<br/>reviews.indexed"]

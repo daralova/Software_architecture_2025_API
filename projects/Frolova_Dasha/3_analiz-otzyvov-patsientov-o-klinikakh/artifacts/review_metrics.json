@@ -1,0 +1,13 @@
+{
+  "samples": 6,
+  "sentiment": {
+    "macro_f1": 0.6667,
+    "precision": 0.7778,
+    "recall": 0.7778
+  },
+  "aspect": {
+    "macro_f1": 1.0
+  },
+  "model": "lexicon-baseline",
+  "seed": 20261027
+}
