@@ -3,8 +3,8 @@
   "repo": "godor1333/Software_architecture_2025_API",
   "repo_url": "https://github.com/godor1333/Software_architecture_2025_API",
   "site_url": "https://godor1333.github.io/Software_architecture_2025_API/",
-  "updated_at": "2026-11-02T16:51:28+03:00",
-  "done": 8,
+  "updated_at": "2026-11-02T20:02:30+03:00",
+  "done": 9,
   "total": 40,
   "report_checklist": [
     "Цель и проблема проекта",
@@ -90,7 +90,7 @@
       "name": "Эля Варганова",
       "slug": "Varganova_Elya",
       "path": "projects/Varganova_Elya",
-      "done": 1,
+      "done": 2,
       "total": 5,
       "projects": [
         {
@@ -156,13 +156,13 @@
           ],
           "path": "projects/Varganova_Elya/2_antifrod-dlya-onlayn-kazino-igrovykh",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Varganova_Elya/2_antifrod-dlya-onlayn-kazino-igrovykh",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 13,
+          "submitted_at": "2026-11-02T17:02:16Z",
+          "pr": 12,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/12",
+          "by": "varganovaelya",
+          "by_login": true
         },
         {
           "n": 3,
