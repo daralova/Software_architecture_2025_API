@@ -1,0 +1,41 @@
+env:
+  width: 24
+  height: 24
+  rooms: 8
+  room_min_size: 3
+  coins: 12
+  traps: 8
+  enemies: 5
+  enemy_strategy: chase   # random | patrol | chase
+  max_steps: 400
+  view_size: null          # null = полная карта в наблюдении
+rewards:
+  step: -0.01
+  coin: 1.0
+  trap: -1.0
+  hit: -1.0
+  kill: 0.5
+  death: -5.0
+  win: 10.0
+training:
+  algorithm: PPO
+  total_timesteps: 200000
+  seed: 42
+  n_envs: 8
+  learning_rate: 0.0003
+  batch_size: 256
+  gamma: 0.99
+  features_dim: 128
+  save_path: models/ppo_dungeon
+mlflow:
+  tracking_uri: http://mlflow:5000
+  experiment: dungeon-crawler
+  run_name: ppo-baseline
+kafka:
+  bootstrap_servers: kafka:9092
+  topic: dungeon-telemetry
+  enabled: true
+inference:
+  host: 0.0.0.0
+  port: 8000
+  model_path: models/ppo_dungeon.zip
