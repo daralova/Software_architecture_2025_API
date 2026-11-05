@@ -3,10 +3,10 @@
 
 # Software Architecture 2025 — проекты студентов
 
-[![progress](https://img.shields.io/badge/progress-10%2F40%20(25%25)-blue)](https://godor1333.github.io/Software_architecture_2025_API/) 
+[![progress](https://img.shields.io/badge/progress-13%2F40%20(32%25)-blue)](https://godor1333.github.io/Software_architecture_2025_API/) 
 
 🌐 **Сайт с проектами:** https://godor1333.github.io/Software_architecture_2025_API/  
-🕒 Обновлено: 02.11.2026 20:04 (МСК)
+🕒 Обновлено: 05.11.2026 22:14 (МСК)
 
 Курс «Архитектура программного обеспечения», 2025. Здесь собираются проекты студентов:
 у каждого участника 5 проектов, у каждого проекта — своя папка с заданием (`TASK.md`).
@@ -16,7 +16,7 @@
 
 | Участник | Сдано | Прогресс |
 |---|:---:|---|
-| [Эля Варганова](#эля-варганова) | 2/5 | `████░░░░░░` 40% |
+| [Эля Варганова](#эля-варганова) | 5/5 | `██████████` 100% |
 | [Никита Шарунин](#никита-шарунин) | 0/5 | `░░░░░░░░░░` 0% |
 | [Дима Леонов](#дима-леонов) | 0/5 | `░░░░░░░░░░` 0% |
 | [Лиля Тютерева](#лиля-тютерева) | 0/5 | `░░░░░░░░░░` 0% |
@@ -24,19 +24,19 @@
 | [Денис Сивогривов](#денис-сивогривов) | 0/5 | `░░░░░░░░░░` 0% |
 | [Артём Царьков](#артём-царьков) | 0/5 | `░░░░░░░░░░` 0% |
 | [Денис Куравин](#денис-куравин) | 5/5 | `██████████` 100% |
-| **Всего** | **10/40** | `██░░░░░░░░` 25% |
+| **Всего** | **13/40** | `███░░░░░░░` 32% |
 
 ## Проекты
 
 ### Эля Варганова
 
-Папка: [`projects/Varganova_Elya/`](projects/Varganova_Elya) · сдано **2/5**
+Папка: [`projects/Varganova_Elya/`](projects/Varganova_Elya) · сдано **5/5**
 
-- [x] **1. RL-агент для управления гоночным автомобилем** — [📁 папка](projects/Varganova_Elya/1_rl-agent-dlya-upravleniya-gonochnym) · [PR #9](https://github.com/godor1333/Software_architecture_2025_API/pull/9) · @varganovaelya · принят 27.10.2026
+- [x] **1. RL-агент для управления гоночным автомобилем** — [📁 папка](projects/Varganova_Elya/1_rl-agent-dlya-upravleniya-gonochnym) · [PR #14](https://github.com/godor1333/Software_architecture_2025_API/pull/14) · @varganovaelya · принят 05.11.2026
 - [x] **2. Антифрод для онлайн-казино/игровых ставок** — [📁 папка](projects/Varganova_Elya/2_antifrod-dlya-onlayn-kazino-igrovykh) · [PR #12](https://github.com/godor1333/Software_architecture_2025_API/pull/12) · @varganovaelya · принят 02.11.2026
-- [ ] **3. Сегментация автомобилей на дорожных камерах** — [📁 папка](projects/Varganova_Elya/3_segmentatsiya-avtomobiley-na-dorozhnykh)
-- [ ] **4. LLM-система проверки юридических договоров** — [📁 папка](projects/Varganova_Elya/4_llm-sistema-proverki-yuridicheskikh)
-- [ ] **5. RL-агент для игры в клеточный dungeon crawler** — [📁 папка](projects/Varganova_Elya/5_rl-agent-dlya-igry-v-kletochnyy-dungeon)
+- [x] **3. Сегментация автомобилей на дорожных камерах** — [📁 папка](projects/Varganova_Elya/3_segmentatsiya-avtomobiley-na-dorozhnykh) · [PR #14](https://github.com/godor1333/Software_architecture_2025_API/pull/14) · @varganovaelya · принят 05.11.2026
+- [x] **4. LLM-система проверки юридических договоров** — [📁 папка](projects/Varganova_Elya/4_llm-sistema-proverki-yuridicheskikh) · [PR #14](https://github.com/godor1333/Software_architecture_2025_API/pull/14) · @varganovaelya · принят 05.11.2026
+- [x] **5. RL-агент для игры в клеточный dungeon crawler** — [📁 папка](projects/Varganova_Elya/5_rl-agent-dlya-igry-v-kletochnyy-dungeon) · [PR #14](https://github.com/godor1333/Software_architecture_2025_API/pull/14) · @varganovaelya · принят 05.11.2026
 
 ### Никита Шарунин
 

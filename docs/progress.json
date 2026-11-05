@@ -3,8 +3,8 @@
   "repo": "godor1333/Software_architecture_2025_API",
   "repo_url": "https://github.com/godor1333/Software_architecture_2025_API",
   "site_url": "https://godor1333.github.io/Software_architecture_2025_API/",
-  "updated_at": "2026-11-02T20:04:46+03:00",
-  "done": 10,
+  "updated_at": "2026-11-05T22:14:24+03:00",
+  "done": 13,
   "total": 40,
   "report_checklist": [
     "Цель и проблема проекта",
@@ -90,7 +90,7 @@
       "name": "Эля Варганова",
       "slug": "Varganova_Elya",
       "path": "projects/Varganova_Elya",
-      "done": 2,
+      "done": 5,
       "total": 5,
       "projects": [
         {
@@ -122,10 +122,10 @@
           "path": "projects/Varganova_Elya/1_rl-agent-dlya-upravleniya-gonochnym",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Varganova_Elya/1_rl-agent-dlya-upravleniya-gonochnym",
           "done": true,
-          "files": 27,
-          "submitted_at": "2026-10-26T22:26:09Z",
-          "pr": 9,
-          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/9",
+          "files": 30,
+          "submitted_at": "2026-11-05T19:14:07Z",
+          "pr": 14,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/14",
           "by": "varganovaelya",
           "by_login": true
         },
@@ -190,13 +190,13 @@
           ],
           "path": "projects/Varganova_Elya/3_segmentatsiya-avtomobiley-na-dorozhnykh",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Varganova_Elya/3_segmentatsiya-avtomobiley-na-dorozhnykh",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 47,
+          "submitted_at": "2026-11-05T19:14:07Z",
+          "pr": 14,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/14",
+          "by": "varganovaelya",
+          "by_login": true
         },
         {
           "n": 4,
@@ -224,13 +224,13 @@
           ],
           "path": "projects/Varganova_Elya/4_llm-sistema-proverki-yuridicheskikh",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Varganova_Elya/4_llm-sistema-proverki-yuridicheskikh",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 59,
+          "submitted_at": "2026-11-05T19:14:07Z",
+          "pr": 14,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/14",
+          "by": "varganovaelya",
+          "by_login": true
         },
         {
           "n": 5,
@@ -258,13 +258,13 @@
           ],
           "path": "projects/Varganova_Elya/5_rl-agent-dlya-igry-v-kletochnyy-dungeon",
           "url": "https://github.com/godor1333/Software_architecture_2025_API/tree/main/projects/Varganova_Elya/5_rl-agent-dlya-igry-v-kletochnyy-dungeon",
-          "done": false,
-          "files": 0,
-          "submitted_at": "",
-          "pr": null,
-          "pr_url": "",
-          "by": "",
-          "by_login": false
+          "done": true,
+          "files": 40,
+          "submitted_at": "2026-11-05T19:14:07Z",
+          "pr": 14,
+          "pr_url": "https://github.com/godor1333/Software_architecture_2025_API/pull/14",
+          "by": "varganovaelya",
+          "by_login": true
         }
       ]
     },
